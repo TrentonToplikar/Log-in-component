@@ -1,0 +1,46 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(111, 25, 157) , rgb(255, 170, 0));
+    color: white;
+}
+
+.auth-form-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.65);
+    margin: 20px;
+    border-radius: 8px;
+    text-align: left;
+    padding: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+button {
+    margin: 6px;
+    padding: 6px;
+    border: none;
+    border-radius: 8px;
+}
+input {
+    margin: 6px;
+    padding: 6px;
+    border: none;
+    border-radius: 8px;
+}
+.linkButton {
+    background: none;
+    color: white;
+    text-decoration: underline;
+}
