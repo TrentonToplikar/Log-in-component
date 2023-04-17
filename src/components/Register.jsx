@@ -8,11 +8,12 @@ export const Register = (props) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        console.log(name)
         console.log(email)
         console.log(password)
-        console.log(name)
         setEmail('')
         setPassword('')
+        setName('')
     }
     return (
         <div className="auth-form-container">
